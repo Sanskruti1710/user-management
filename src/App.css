@@ -1,0 +1,74 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background: whitesmoke;
+  overflow: hidden;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+
+}
+.Sidebar{
+height: 100%;
+width: 300px;
+background: rgb(6, 6, 92);
+}
+.SidebarList{
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+.SidebarList li{
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  /* font-weight: bold; */
+  cursor: pointer;
+  /* justify-content:center ;
+  align-items: center; */
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row #icon{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: grid;
+
+}
+.row #title{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.dropdown {
+  position: absolute;
+  top: 4.5rem;
+  left: 4rem;
+  /* width: 80px; */
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+.dropdown ::before{
+  
+  content: '';position: absolute;
+  top: -2rem;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  border: 10px solid;
+  border-color: transparent;
+  transform: rotate(45deg);
+}
